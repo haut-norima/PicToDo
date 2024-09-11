@@ -12,7 +12,6 @@ Django==4.2.3
 django-allauth==0.59.0
 django-environ==0.11.2
 django-widgets-improved==1.5.0
-dlib==19.24.4
 idna==3.4
 Jinja2==3.1.2
 kiwisolver==1.4.5
