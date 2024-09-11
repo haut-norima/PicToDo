@@ -142,3 +142,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # 既存の静的ファイル設定の下に追加
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+SUPERUSER_NAME = env("SUPERUSER_NAME")
+SUPERUSER_EMAIL = env("SUPERUSER_EMAIL")
+SUPERUSER_PASSWORD = env("SUPERUSER_PASSWORD")
